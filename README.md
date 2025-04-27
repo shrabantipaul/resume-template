@@ -16,3 +16,9 @@ Please create your own gemini api key and store it in a .env file at the root le
 GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 
 Refer https://ai.google.dev/gemini-api/docs/api-key for creating gemini api key
+
+To run the project:
+npm run dev
+
+To run server:
+node server.cjs
