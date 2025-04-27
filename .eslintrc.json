@@ -1,0 +1,17 @@
+{
+    "env": {
+      "node": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended"
+      // Add other recommended or plugin-specific rulesets here
+    ],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module" // If you're using ES modules (import/export)
+    },
+    "rules": {
+      // Add or override specific rules here
+    }
+  }
