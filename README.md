@@ -22,3 +22,5 @@ npm run dev
 
 To run server:
 node server.cjs
+
+Website is deployed to https://stunning-speculoos-a471a0.netlify.app/

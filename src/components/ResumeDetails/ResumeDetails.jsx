@@ -49,7 +49,7 @@ const ResumeDisplay = ({ resumeData, setResumeData }) => {
       {!pdfMode && (
         <button
           onClick={downloadPDF}
-          className="bg-blue-500 w-4xl text-white px-4 py-2 rounded hover:bg-blue-600 mb-8 mx-8"
+          className="bg-blue-500 w-4xl text-white px-4 py-2 rounded hover:bg-blue-600 mb-8 mx-auto block"
         >
           Download as PDF
         </button>
