@@ -11,7 +11,7 @@ export const extractResumeDetails = async (input, type) => {
     if (type === "pdf") {
       formData.append("file", input);
     }
-    response = await fetch(`http://localhost:3000/${type === "pdf" ? "scrape-pdf" : "scrape-linkedin"}`, {
+    response = await fetch(`/.netlify/functions/${type === "pdf" ? "scrape-pdf" : "scrape-linkedin"}`, {
       method: "POST",
       ...(type !=='pdf' && {headers: {
         'Content-Type': 'application/json', // Important!

@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"        # Build your React app
+  publish = "client/dist"      #  Vite build output directory
+  functions = "functions"        #  Netlify functions directory
+
+[functions]
+  included_files = ["node_modules/**", ".env"] # Include node_modules and .env
